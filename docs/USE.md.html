@@ -1,0 +1,28 @@
+<h1 id="use-the-palantir">Use the Palantir</h1>
+<p>Introduction</p>
+<hr>
+<!--
+Use
+  Node
+  Docker
+-->
+
+<h2 id="project-setup">Project setup</h2>
+<pre><code class="language-bash">npm install</code></pre>
+<h3 id="compiles-and-hot-reloads-for-development">Compiles and hot-reloads for development</h3>
+<pre><code class="language-bash">npm run serve</code></pre>
+<h3 id="compiles-and-minifies-for-production">Compiles and minifies for production</h3>
+<pre><code class="language-bash">npm run build</code></pre>
+<h3 id="run-your-tests">Run your tests</h3>
+<pre><code class="language-bash">npm run test</code></pre>
+<h3 id="lints-and-fixes-files">Lints and fixes files</h3>
+<pre><code class="language-bash">npm run lint</code></pre>
+<h3 id="changelog-to-timeline">Changelog to Timeline</h3>
+<pre><code class="language-bash">palantir changelog &quot;../my-project/CHANGELOG.md&quot; &quot;./my-project.json&quot;</code></pre>
+<h3 id="documentation-generator">Documentation generator</h3>
+<pre><code class="language-bash">palantir doc &quot;../my-project/{*.md,\!(node_modules)/**/*.md}&quot; &quot;./my-project&quot; &quot;../my-project/&quot;</code></pre>
+<h3 id="internal-variables">Internal variables</h3>
+<pre><code class="language-json">&quot;variables&quot;: {
+  &quot;upgrade.button&quot;: false, // no upgrade button in the header
+  &quot;upgrade.reload&quot;: false  // no automatic reload when the server&#39;s version changed
+}</code></pre>
