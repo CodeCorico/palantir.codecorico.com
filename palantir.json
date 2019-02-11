@@ -1,4 +1,8 @@
 {
+  "variables": {
+    "upgrade.button": false,
+    "upgrade.reload": false
+  },
   "apps": {
     "palantir-docs": {
       "type": "pages",
